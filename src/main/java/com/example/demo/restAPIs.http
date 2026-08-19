@@ -1,0 +1,12 @@
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{ 
+    "username": "admin", 
+    "password": "password" 
+}
+
+###
+
+GET http://localhost:8080/products
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4NzEyODE4MiwiZXhwIjoxNzg3MTI4MjQyfQ.Hgac36K3LTIorW_LACZKNHvLoTIlhqCXo6jVfIajGHg
